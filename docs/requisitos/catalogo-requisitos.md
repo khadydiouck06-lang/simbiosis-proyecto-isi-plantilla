@@ -277,7 +277,7 @@ FR-017 se conserva para no perder el identificador histórico, pero su estado es
 ## 5. Requisitos no funcionales
 
 | ID | Categoría y atributo | Requisito no funcional | Ámbito (Global/Local) | UR/FR relacionados | Método de comprobación | Estado |
-| --- | --- | --- | --- | --- | --- | --- |
+| NFR-01 | Requisitos de calidad (NFR-Q) | La plataforma ofrecerá servicio durante las 24 horas del día, con una disponibilidad mínima del 99,5 % en cada mes natural. La disponibilidad se medirá mediante una comprobación automática realizada cada cinco minutos desde un sistema externo a la plataforma, y una comprobación se considerará fallida cuando no sea posible acceder a la plataforma o utilizar sus funciones principales. | G | --- | --- | --- |
 | NFR-07 |NFR-Q (Eficiencia; Escalabilidad; Mantenibilidad) |La plataforma mantendrá los objetivos de capacidad y rendimiento definidos para la primera versión sin intervención manual del personal de la organización.| G | -  | Prueba de carga automatizada con 100 usuarios concurrentes y 10 operaciones/s durante 30 min; comprobar mediante registros de monitorización, ausencia de intervención manual. | - |
 
 Categorías y atributos: 
